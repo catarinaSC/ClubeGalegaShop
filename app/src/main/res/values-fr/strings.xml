@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Clube Galega Shop</string>
+    <string name="description">Le Centre d'Interprétation de l'huile d'olive et d'olive, Clube Galega, aspire à transmettre à travers des ses produits ce que l'huile d'olive est et ses avantages à tous les consommateurs d'une variété portugaise, l'olive Galega.</string>
+    <string name="Adress" translatable="false">Bairro Industrial 7960-305 Vidigueira</string>
+    <string name="Schedule" translatable="false">2ª-6ª: 9h-12.30h/14h-18h</string>
+    <string name="Contact" translatable="false"> T. +351 284 437 070</string>
+    <string name="website" translatable="false"> www.cavidigueira.com</string>
+</resources>

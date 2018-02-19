@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.catarina.clubegalegashop.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginLeft="@dimen/marginViewSides"
+        android:layout_marginRight="@dimen/marginViewSides"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@color/viewColors" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginTop="@dimen/marginTop"
+        android:fontFamily="sans-serif"
+        android:text="@string/description"
+        android:textColor="@color/textColors"
+        android:textSize="@dimen/textSize" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@color/iconColors"
+        android:drawableLeft="@drawable/time"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/Schedule"
+        android:textColor="@color/textColors"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@color/iconColors"
+        android:drawableLeft="@drawable/place"
+        android:fontFamily="sans-serif"
+        android:hint="@string/Adress"
+        android:onClick="location"
+        android:textColor="@color/textColors"
+        android:textSize="@dimen/textSize" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@color/iconColors"
+        android:drawableLeft="@drawable/phone"
+        android:fontFamily="sans-serif"
+        android:hint="@string/Contact"
+        android:onClick="call"
+        android:textColor="@color/textColors"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginSides"
+        android:layout_marginRight="@dimen/marginSides"
+        android:layout_marginTop="@dimen/marginTop"
+        android:background="@color/iconColors"
+        android:drawableLeft="@drawable/info"
+        android:fontFamily="sans-serif"
+        android:hint="@string/website"
+        android:onClick="website"
+        android:textColor="@color/textColors"
+        android:textSize="@dimen/textSize" />
+
+
+</LinearLayout>

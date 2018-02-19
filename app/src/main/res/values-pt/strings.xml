@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Clube Galega Shop</string>
+    <string name="description">O Centro Interpretativo da azeitona e do azeite, Clube Galega, ambiciona transmitir através dos seus produtos o que é o azeite e os seus benefícios a todos os consumidores a partir de uma variedade portuguesa, a azeitona Galega. </string>
+    <string name="Adress" translatable="false">Bairro Industrial 7960-305 Vidigueira</string>
+    <string name="Schedule" translatable="false">2ª-6ª: 9h-12.30h/14h-18h</string>
+    <string name="Contact" translatable="false"> T. +351 284 437 070</string>
+    <string name="website" translatable="false"> www.cavidigueira.com</string>
+</resources>
